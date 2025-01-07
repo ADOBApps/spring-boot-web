@@ -1,0 +1,36 @@
+#resizable { width: 200px; height: 200px; padding: 0.5em; }
+#resizable h3 { text-align: center; margin: 0; }
+
+.ui-controlgroup-vertical {
+  width: 150px;
+}
+.ui-controlgroup.ui-controlgroup-vertical > button.ui-button,
+.ui-controlgroup.ui-controlgroup-vertical > .ui-controlgroup-label {
+  text-align: center;
+}
+#car-type-button {
+  width: 120px;
+}
+.ui-controlgroup-horizontal .ui-spinner-input {
+  width: 20px;
+}
+
+#red_slider, #green_slider, #blue_slider {
+  float: left;
+  clear: left;
+  width: 300px;
+  margin: 15px;
+}
+#swatch {
+  width: 120px;
+  height: 100px;
+  margin-top: 18px;
+  margin-left: 350px;
+  background-image: none;
+}
+#red_slider .ui-slider-range { background: #ef2929; }
+#red_slider .ui-slider-handle { border-color: #ef2929; }
+#green_slider .ui-slider-range { background: #8ae234; }
+#green_slider .ui-slider-handle { border-color: #8ae234; }
+#blue_slider .ui-slider-range { background: #729fcf; }
+#blue_slider .ui-slider-handle { border-color: #729fcf; }
